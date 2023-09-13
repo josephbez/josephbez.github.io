@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Media Wine & Spirits #2</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" type="image/png" href="images/browser.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">     
+                    <i class="fa fa-times" onclick ="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="blog.html">CERTIFICATION & QUALIFICATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+    <div class ="text-box">
+        <h1>Media Wine & Spirits #2</h1>
+        <p>Welcome to Media Wine & Spirits! Your gateway to premium spirits 
+        and exceptional libations. Discover a world of flavors, crafted to 
+        elevate your moments.
+        </p>
+        <a href=""class="hero-btn">Visit Us To Know More</a>
+    </div>
+        </section>
+
+        <section class ="course">
+            <h1>Our Selection</h1>
+            <p>Explore an extensive collection of fine wines, craft beers, 
+            top-shelf spirits, and an array of beloved non-alcoholic classics, 
+            all accompanied by a tempting selection of snacks to complement your 
+            every choice.</p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Wine</h3>
+                    <p>Explore our world-class wine selection, where every bottle 
+                    is a journey waiting to be uncorked. Elevate your palate and 
+                    savor life's finest moments with our handpicked wines.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Craft Beers</h3>
+                    <p>Dive into our exceptional beer collection, where every brew 
+                    is an adventure in a glass. Elevate your beer game and savor 
+                    life's finest moments with our curated selection of craft and 
+                    classic brews.</p>
+                </div> 
+                <div class="course-col">
+                    <h3>Spirits</h3>
+                    <p>Embark on a spirited journey with our exceptional liquor 
+                    selection, where each bottle is a passport to memorable moments. 
+                    Elevate your taste and savor life's finest moments with our curated 
+                    range of premium spirits.</p>
+                </div>
+            </div>
+        </section>
+        <section class="campus">
+            <h1>Other Items</h1>
+            <p>Beyond our wines and spirits, find a world of indulgence. From snacks and 
+            refreshments to cigarettes and vapes, we've got you covered for all your 
+            cravings."</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/chipscandy.png">
+                    <div class="layer">
+                        <h3>SNACKS</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/sodasjuices.png">
+                    <div class="layer">
+                        <h3>BEVERAGES</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/nicotine.png">
+                    <div class="layer">
+                        <h3>NICOTINE PRODUCTS</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="testimonials">
+            <h1>What Our Customers Says</h1>
+            <p>Discover what customers are saying about us in thier own words!</p>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <div>
+                        <p>I recently discovered Media Wine & Spirits #2, and it's 
+                        become my go-to place for all things spirits. The selection 
+                        is truly impressive, and the staff's knowledge and friendliness 
+                        re unmatched. They helped me find the perfect wine for a special 
+                        occasion, and it was a hit with my guests. I can't recommend this 
+                        store enough.</p>
+                        <h3>Emily Parker</h3>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <div>
+                        <p>I absolutely love shopping at at this store. The selection is 
+                        top-notch, and the staff's knowledge is impressive. Whether I'm 
+                        looking for a rare bottle of wine or just some craft beer for a 
+                        weekend barbecue, they always have what I need. Plus, the friendly 
+                        atmosphere makes every visit a pleasure.</p>
+                        <h3>Benjamin Davis</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Our Socials</h4>
+            <p>Stay updated through our socials!</p>
+            <div class="icons">
+                <a href="https://m.facebook.com/people/Media-Wine-Spirits-2/100066694201280/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/melrose_wine_spirits_2/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementByID("navLinks"); 
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

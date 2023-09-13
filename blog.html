@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Media Wine & Spirits #2</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="images/browser.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">     
+                    <i class="fa fa-times" onclick ="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="blog.html">CERTIFICATION & QUALIFICATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Qualifications & Responsibility</h1>
+        </section>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <h2>Our Certificates, Qualifications, & Licenses</h2>
+                    <p>At Media Wine & Spirits #2, we take our commitment to 
+                    responsible alcohol retailing very seriously. We believe 
+                    that ensuring the safe and responsible sale of alcoholic 
+                    beverages is not just a legal obligation but a moral one, 
+                    and it's a responsibility that extends to every member of 
+                    our team.
+                    </p>
+                <br>
+                    <p>To uphold the highest standards of safety and legality, every 
+                    individual working at our liquor store undergoes comprehensive 
+                    certification and training. This training equips our staff with 
+                    the knowledge and skills necessary to navigate the complexities of 
+                    alcohol regulations, promote responsible consumption, and prevent 
+                    the sale of alcohol to minors or individuals who are already intoxicated.
+                    </p>
+                <br>
+                    <p>Our team members are certified in accordance with local and national 
+                    regulations, and they regularly update their knowledge to stay current 
+                    with any changes in the industry. We understand that the sale of alcohol 
+                    carries significant social and health responsibilities, and we are committed 
+                    to playing our part in promoting safe and responsible drinking habits within 
+                    our community.
+                    </p>
+                <br>
+                    <p>Rest assured, when you visit [Your Liquor Store Name], you are not just 
+                        entering a place to purchase beverages; you are entering a space where 
+                        the responsible handling of alcohol is a top priority. Our certified and 
+                        knowledgeable team is here to assist you with any questions or concerns you 
+                        may have, ensuring that every customer enjoys a safe and enjoyable experience. 
+                        We believe that by working together, we can make a positive difference in our 
+                        community and contribute to the responsible enjoyment of alcohol. Thank you for 
+                        choosing [Your Liquor Store Name], where responsibility and certification go 
+                        hand in hand. </p>
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type = "submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+
+        <section class="footer">
+            <h4>Our Socials</h4>
+            <p>Stay updated through our socials!</p>
+            <div class="icons">
+                <a href="https://m.facebook.com/people/Media-Wine-Spirits-2/100066694201280/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/melrose_wine_spirits_2/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementByID("navLinks"); 
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Media Wine & Spirits #2</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="images/browser.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">     
+                    <i class="fa fa-times" onclick ="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.htmml">PRODUCT</a></li>
+                        <li><a href="blog.html">CERTIFICATION & QUALIFICATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.449241424002!2d-118.33173970000001!3d34.0836302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8cdb2d480d7%3A0x94593b226a3c33a9!2s6023%20Melrose%20Ave%2C%20Los%20Angeles%2C%20CA%2090038!5e0!3m2!1sen!2sus!4v1693696627232!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon 
+                        src="https://cdn.lordicon.com/zzcjjxew.json" 
+                        colors="primary:#121331,secondary:#08a88a" 
+                        style="width:50px;height:50px">
+                        </lord-icon>
+                        <span>
+                            <h5>6023 Melrose Ave.</h5>
+                            <p>Los Angeles, CA</p>
+                        </span>
+                    </div>
+                    <div>
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/tftaqjwp.json"
+    colors="primary:#121331"
+    style="width:50px;height:50px">
+</lord-icon>
+                        <span>
+                            <h5>(323)-465-6362</h5>
+                            <p>Sunday-Thursday, 7AM - 11PM</p>
+                            <p>Friday-Saturday, 7AM - 12AM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-enevelope-o"></i>
+                        <span>
+                            <h5>robouz2004@icloud.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+            <div class="contact-col">
+
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="footer">
+            <h4>Our Socials</h4>
+            <p>Stay updated through our socials!</p>
+            <div class="icons">
+                <a href="https://m.facebook.com/people/Media-Wine-Spirits-2/100066694201280/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/melrose_wine_spirits_2/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementByID("navLinks"); 
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

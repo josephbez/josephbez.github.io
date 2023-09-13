@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Media Wine & Spirits #2</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="images/browser.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a> 
+                <div class="nav-links" id="navLinks">     
+                    <i class="fa fa-times" onclick ="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="blog.html">CERTIFICATION & QUALIFICATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <section class="about-us">
+            <div class="row">
+            <div class="about-col">
+                <h1>Our Committment to Quality</h1>
+                <p>
+                Welcome to Media Wine & Spirits #2, where passion 
+                for exceptional drinks meets a commitment to 
+                unparalleled service. Nestled in the heart of Los Angeles, 
+                our store has been a cornerstone of the community, offering 
+                a curated selection of the finest wines, craft beers, and 
+                premium spirits for over 5 years.
+                </p>
+                <p>What sets us apart is our unwavering dedication to delivering 
+                a remarkable shopping experience. Our team of knowledgeable and 
+                friendly experts is here to guide you through our extensive inventory, 
+                helping you discover new favorites or source that special bottle for 
+                your occasion.</p>
+                <p>At Media Wine & Spirits #2, we believe that great spirits are meant 
+                to be shared, celebrated, and savored. That's why we meticulously curate 
+                our collection, handpicking each product for its quality, character, and 
+                unique story. Whether you're a wine connoisseur, a beer enthusiast, or a 
+                spirits aficionado, we have something that will delight your palate.</p>
+                <p>Beyond our exceptional selection, we're deeply committed to our community. 
+                We take pride in supporting local events, charities, and initiatives that 
+                enrich the lives of our neighbors. It's our way of giving back to the place 
+                that has embraced us for so long.
+                </p>
+                <p>Thank you for choosing Media Wine & Spirits #2 as your trusted source 
+                for all things spirited. We look forward to helping you craft unforgettable 
+                moments, one sip at a time. Raise your glass to extraordinary taste, warm 
+                camaraderie, and the pursuit of life's finer pleasures. Cheers!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/background.jpg">
+            </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Our Socials</h4>
+            <p>Stay updated through our socials!</p>
+            <div class="icons">
+                <a href="https://m.facebook.com/people/Media-Wine-Spirits-2/100066694201280/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/melrose_wine_spirits_2/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementByID("navLinks"); 
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
